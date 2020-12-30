@@ -1,13 +1,6 @@
 .column {
   width: 50%;
-}
-
-#column1 {
-  align-content: center;
-}
-
-#column2 {
-  align-content: center;
+  align-items: center;
 }
 
 .row:after {
