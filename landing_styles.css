@@ -3,6 +3,14 @@
   width: 25%;
 }
 
+#invis1 {
+  color: #f2dcaa;
+}
+
+#invis2 {
+  color: #f2dcaa;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -22,6 +30,10 @@ body {
 }
 
 h1 {
+  text-align:center;
+}
+
+h3 {
   text-align:center;
 }
 
