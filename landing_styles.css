@@ -19,9 +19,25 @@
   }
 }
 
+.lang {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#socials {
+  margin: auto auto auto auto;
+  width: 150px;
+}
+
+.col {
+  float: left;
+  width: 50px;
+}
+
 .rframe {
   clip-path: circle(115px at center);
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 #invis1 {
@@ -38,10 +54,13 @@
   clear: both;
 }
 
-
+body, html {
+  height: 100%;
+}
 
 body {
   background-image: linear-gradient(#ff8880, #ffffff);
+  background-repeat: no-repeat;
   font-family: 'Aleo';
   color: #292929;
   font-size: 17px;
@@ -51,8 +70,19 @@ h1 {
   font-family: 'Big Shoulders Stencil Text';
   font-size: 68px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-top: 10px;
+}
+
+.en-subtitle {
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Ma Shan Zheng';
+  font-size: 30px;
+  text-align: center;
+  margin: 0px auto 25px auto;
 }
 
 h3 {
